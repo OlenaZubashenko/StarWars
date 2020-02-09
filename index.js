@@ -4,7 +4,7 @@ fetch('https://swapi.co/api/films/')
 .then(json => {        
     data = json.results;
     renderTable(data);
-    renderDetails(data);
+    //renderDetails(data);
 });
 
 let applyBtn = document.getElementById('apply-choose');
@@ -54,7 +54,7 @@ function renderTable(_data){
     });
 };
 
-//this function is not realise completely
+//this function is not completed
 // function renderDetails(data) {
 // let details = document.getElementById('filmDetails');
 
