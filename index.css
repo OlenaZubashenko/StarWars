@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.form-group {
+    display: flex;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.btn {
+    height: 50px;
+    margin-left: 15px;
+}
+
+.table th {
+    margin-right: 20px;
+    margin: 10px auto;
+}
+
+.table-style {
+    border-bottom: 1px solid rgb(231, 231, 231);
+    margin-bottom: 5px;
+}
+
+.alert-link {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.alert-link:hover {
+    color: rgb(148, 145, 145);
+
+}
+
+.producer {
+    margin-right: 20px;
+}
